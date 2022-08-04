@@ -8,12 +8,7 @@ const stylesHandler = "style-loader";
 
 const pages = [
     "index",
-    "my-company"
-    // Other html
-];
-
-const pages_ = [
-    "my-company"
+    "invite-your-team"
     // Other html
 ];
 
@@ -24,37 +19,32 @@ const config = {
         return config;
     }, {}),
     output: {
-        filename: '[name].js',
+        // filename: '[name].js',
         path: path.resolve(__dirname, "dist"),
-        assetModuleFilename: '[name][ext]',
+        // assetModuleFilename: '[name][ext]',
     },
 
-    optimization: {
-        splitChunks: {
-            chunks: "all",
-        },
-    },
+    // optimization: {
+    //     splitChunks: {
+    //         chunks: "all",
+    //     },
+    // },
 
     devServer: {
         open: true,
         host: "localhost",
     },
 
-    plugins: [].concat(
-        pages_.map(
-            (page) =>
-                new HtmlWebpackPlugin({
-                    template: `./src/pages/${page}.html`,
-                    filename: `${page}.html`,
-                    chunks: [page],
-                    inject: true,
-                })
-        ),
+    plugins: [
         new HtmlWebpackPlugin({
             template: "./index.html",
-            filename: "index.html",
+            filename: "index.html"
         }),
-    ),
+        new HtmlWebpackPlugin({
+            template: "src/pages/invite-your-team.html",
+            filename: "invite-your-team.html"
+        }),
+    ],
     module: {
         rules: [
             {

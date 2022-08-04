@@ -1,10 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>invite-your-team</title>
+    <meta charset="UTF-8">
+    <title>invite-your-team</title>
 </head>
-<body>
+<body class="h-100">
+<div class="container-fluid p-0 h-100">
+    <div class="row h-100 m-0 ">
+        <div class="col col-auto p-0 h-100">
+            <div class="" style="width: 200px;">
+                <%= require("html-loader!../components/left-menu.html").default %>
+            </div>
+        </div>
+        <div class="col m-0 p-0">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col p-0">
+                        <header class="header">
 
+                        </header>
+                    </div>
+                </div>
+                <div class="row invite-form">
+                    <div class="col-md-8 offset-md-2">
+                        <main>
+                            <form action="" class="mt-5 border p-4 bg-light shadow">
+                                <div class="mb-2 align-self-center">
+                                    <p class="fw-bold">Enter the team member you'd like to invite</p>
+                                    <p>Don't worry! You'll be able to add more team members later.</p>
+                                </div>
+                                <div class="mb-2 align-self-center">
+                                    <label for="exampleFormControlInput1" class="form-label fw-bold">First Name</label>
+                                    <input type="text" class="form-control" id="exampleFormControlInput1"
+                                           placeholder="">
+                                </div>
+                                <div class="mb-2 align-self-center">
+                                    <label for="exampleFormControlInput1" class="form-label fw-bold">Last Name</label>
+                                    <input type="text" class="form-control" id="exampleFormControlInput2"
+                                           placeholder="">
+                                </div>
+                                <div class="mb-3 align-self-center">
+                                    <label for="exampleFormControlInput1" class="form-label fw-bold">Email</label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput3"
+                                           placeholder="name@example.com">
+                                </div>
+                                <div class="mb-2 align-self-center">
+                                    <input type="button" class="btn btn-warning" value="Invite">
+                                </div>
+                            </form>
+                        </main>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <footer></footer>
+    </div>
+</div>
 </body>
 </html>
