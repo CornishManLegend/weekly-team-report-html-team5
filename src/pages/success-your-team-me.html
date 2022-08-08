@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Success! Your team me …</title>
+</head>
+
+<body class="h-100">
+
+<div class="container-fluid p-0 h-100">
+    <div class="row h-100 m-0">
+        <div class="col col-auto m-0 p-0 h-100">
+            <div class="" >
+                <%= require("html-loader!../components/left-menu.html").default %>
+            </div>
+        </div>
+        <div class="col m-0 p-0 h-100">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col p-0">
+                        <header class="header-block">
+                            <div class="title-block">
+                                <div>Invite Your Team</div>
+                            </div>
+                        </header>
+                    </div>
+                </div>
+                <div class="row main-block">
+                    <div class="col-md-6">
+                        <form action="" class="mt-5 border p-4 bg-light shadow">
+                            <div class="mb-2 align-self-center">
+                                <p class="fw-bold">Succes! Your team member has been invited to the Weekly Report
+                                    Tool</p>
+                                <p>Once they accept your invitation they'll be able to create their reports.</p>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-6 mt-4">
+                        <p><i class="bi bi-caret-right-fill"></i>The team member didn't receive your invite?</p>
+                    </div>
+                    <div class="col-md-6">
+                        <main>
+                            <form action="" class="mt-5 border p-4 bg-light shadow">
+                                <div class="mb-2 align-self-center">
+                                    <p class="fw-bold">Enter the team member you'd like to invite</p>
+                                    <p>Don't worry! You'll be able to add more team members later.</p>
+                                </div>
+                                <div class="mb-2 align-self-center">
+                                    <label for="exampleFormControlInput1" class="form-label fw-bold">First Name</label>
+                                    <input type="text" class="form-control" id="exampleFormControlInput1"
+                                           placeholder="">
+                                </div>
+                                <div class="mb-2 align-self-center">
+                                    <label for="exampleFormControlInput1" class="form-label fw-bold">Last Name</label>
+                                    <input type="text" class="form-control" id="exampleFormControlInput2"
+                                           placeholder="">
+                                </div>
+                                <div class="mb-3 align-self-center">
+                                    <label for="exampleFormControlInput1" class="form-label fw-bold">Email</label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput3"
+                                           placeholder="">
+                                </div>
+                                <div class="mb-2 align-self-center">
+                                    <input type="button" class="btn btn-warning" value="Invite">
+                                </div>
+                            </form>
+                        </main>
+                    </div>
+                </div>
+                <div class="help-button-block">
+                    <button type="button" class="btn help-button"><span class="bi bi-question-circle"> Help</span></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+
+
+</html>

@@ -5,6 +5,68 @@
   <title>my-company</title>
 </head>
 <body>
+<div class="container-fluid p-0 h-100">
+  <div class="row h-100 m-0 ">
+    <div class="col col-auto p-0 h-100">
+      <div class="" >
+        <%= require("html-loader!../components/left-menu.html").default %>
+      </div>
+    </div>
 
+    <div class="col m-0 p-0">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col p-0">
+            <header class="header-block">
+                <h1>ANKO technologies Corp</h1>
+                <h2>Joined January 2020</h2>
+            </header>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row mx-auto my-2 my-sm-3 my-lg-4 p-3">
+          <div class="col-md-8">
+            <h3>
+              EDIT ANKO TECHNOLOGIES CORP'S INFORMATION
+            </h3>
+            <p1>You may edit the company name, as well as deactivate/activate the Weekly Report Tool functionality.
+              If you need to edit a team member's information, you can access that information by seeing the list of team members.
+            </p1>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row mx-auto my-1 my-sm-3 my-lg-4 p-3">
+          <h4>RENAME ANKO TECHNOLOGIES CORP</h4>
+          <form>
+            <div class="mb-3 col-12 col-md-4">
+              <label for="namechanges" style="font-weight: bold;" class="form-label">Change company name</label>
+              <input type="name" class="form-control" id="inputName" aria-describedby="nameHelp" size="40px">
+            </div>
+            <button type="saveNameChange" style="font-weight: bold;" class="btn btn-outline-dark">Save name change</button>
+          </form>
+        </div>
+        <div class="row mx-auto my-1 my-sm-3 my-lg-4 p-3">
+          <div class="col-md-12">
+            <h5>SEE A LIST OF ANKO TECHNOLOGIES CORP'S TEAM MEMBERS</h5>
+          </div>
+          <div class="col-md-8 mb-3">
+            <p2>If you need to edit a particular team member, you can see a complite list of team members and visit their profile to
+              make edits. You will not be able to see a team member's weekly report.
+            </p2>
+          </div>
+          <form>
+            <a href="./team_members.html" type="button" style="font-weight: bold;" class="btn btn-outline-dark" href="./team_members.html">See all team members</a>
+          </form>
+        </div>
+      </div>
+      <div class="help-button-block">
+        <button type="button" class="btn help-button"><span class="bi bi-question-circle"> Help</span></button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
 </body>
 </html>

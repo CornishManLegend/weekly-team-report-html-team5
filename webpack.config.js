@@ -8,7 +8,9 @@ const stylesHandler = "style-loader";
 
 const pages = [
     "index",
-    "invite-your-team"
+    "invite-your-team",
+    "success-your-team-me",
+	"my-company"
     // Other html
 ];
 
@@ -43,6 +45,14 @@ const config = {
         new HtmlWebpackPlugin({
             template: "src/pages/invite-your-team.html",
             filename: "invite-your-team.html"
+        }),
+        new HtmlWebpackPlugin({
+            template: "src/pages/success-your-team-me.html",
+            filename: "success-your-team-me.html"
+        }),
+        new HtmlWebpackPlugin({
+            template: "src/pages/my-company.html",
+            filename: "my-company.html"
         }),
     ],
     module: {
