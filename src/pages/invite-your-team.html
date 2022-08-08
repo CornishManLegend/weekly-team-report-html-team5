@@ -1,28 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>invite-your-team</title>
+    <title>Invite Your Team</title>
 </head>
+
 <body class="h-100">
+
 <div class="container-fluid p-0 h-100">
-    <div class="row h-100 m-0 ">
+    <div class="row h-100 m-0">
         <div class="col col-auto p-0 h-100">
-            <div class="" style="width: 200px;">
+            <div class="" >
                 <%= require("html-loader!../components/left-menu.html").default %>
             </div>
         </div>
-        <div class="col m-0 p-0">
+        <div class="col m-0 p-0 h-100">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col p-0">
-                        <header class="header">
-
+                        <header class="header-block">
+                            <div class="title-block">
+                                <div>Invite Your Team</div>
+                            </div>
                         </header>
                     </div>
                 </div>
-                <div class="row invite-form">
-                    <div class="col-md-8 offset-md-2">
+                <div class="row main-block">
+                    <div class="col-md-6">
                         <main>
                             <form action="" class="mt-5 border p-4 bg-light shadow">
                                 <div class="mb-2 align-self-center">
@@ -42,7 +47,7 @@
                                 <div class="mb-3 align-self-center">
                                     <label for="exampleFormControlInput1" class="form-label fw-bold">Email</label>
                                     <input type="email" class="form-control" id="exampleFormControlInput3"
-                                           placeholder="name@example.com">
+                                           placeholder="">
                                 </div>
                                 <div class="mb-2 align-self-center">
                                     <input type="button" class="btn btn-warning" value="Invite">
@@ -50,12 +55,17 @@
                             </form>
                         </main>
                     </div>
-
+                </div>
+                <div class="help-button-block">
+                    <button type="button" class="btn help-button"><span class="bi bi-question-circle"> Help</span></button>
                 </div>
             </div>
         </div>
-        <footer></footer>
     </div>
 </div>
+
+
 </body>
+
+
 </html>
