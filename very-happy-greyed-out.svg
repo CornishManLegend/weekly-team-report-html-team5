@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17.522mm" height="18.306mm" version="1.1" viewBox="0 0 17.522 18.306" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <radialGradient id="a" cx="253.33" cy="-31.031" r="8.761" gradientTransform="matrix(.99491 0 0 .85264 -26.91 -1.6054)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#717171" offset="0"/>
+   <stop stop-color="#818181" stop-opacity=".31712" offset=".70056"/>
+   <stop stop-color="#898989" stop-opacity="0" offset="1"/>
+  </radialGradient>
+ </defs>
+ <g transform="translate(-109.04 -117.57)">
+  <g transform="translate(-107.33 156.47)">
+   <g>
+    <ellipse cx="225.13" cy="-28.064" rx="8.7164" ry="7.47" fill="url(#a)"/>
+    <circle cx="225.13" cy="-30.139" r="8.761" fill="#fff"/>
+    <circle transform="rotate(-25.463)" cx="216.22" cy="69.582" r="7.2885" fill="#e8eced"/>
+   </g>
+   <g fill="none" stroke="#c7ced1" stroke-width=".565">
+    <path d="m221.13-27.833c1.8241 3.1624 5.6804 4.047 7.9761-0.07809"/>
+    <path d="m220.57-32.363c0.42082-0.43428 1.1684-0.87385 1.8436-1.0647"/>
+    <path d="m227.94-33.363c0.62986 0.12043 1.2667 0.63296 1.5268 1.1136"/>
+    <path d="m221.3-30.549c0.1053-0.60782 1.5786-1.2683 2.3168-0.11809"/>
+    <path d="m226.65-30.482c0.1053-0.60782 1.5786-1.2683 2.3168-0.11809"/>
+   </g>
+  </g>
+ </g>
+</svg>

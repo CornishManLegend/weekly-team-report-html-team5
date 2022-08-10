@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17.522mm" height="18.306mm" version="1.1" viewBox="0 0 17.522 18.306" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <radialGradient id="a" cx="253.33" cy="-31.031" r="8.761" gradientTransform="matrix(.99491 0 0 .85264 -26.91 -1.6054)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#717171" offset="0"/>
+   <stop stop-color="#818181" stop-opacity=".31712" offset=".70056"/>
+   <stop stop-color="#898989" stop-opacity="0" offset="1"/>
+  </radialGradient>
+ </defs>
+ <g transform="translate(-93.333 -109.36)">
+  <g transform="translate(-123.04 148.26)">
+   <g>
+    <ellipse cx="225.13" cy="-28.064" rx="8.7164" ry="7.47" fill="url(#a)"/>
+    <circle cx="225.13" cy="-30.139" r="8.761" fill="#fff"/>
+    <circle cx="225.13" cy="-30.139" r="7.2885" fill="#e8eced"/>
+    <circle cx="222.47" cy="-31.101" r=".50483" fill="#b7bfc3" stroke="#b7bfc3" stroke-width=".08"/>
+    <circle cx="228.1" cy="-31.101" r=".50483" fill="#b7bfc3" stroke="#b7bfc3" stroke-width=".08"/>
+   </g>
+   <g fill="none" stroke="#b7bfc3" stroke-width=".565">
+    <path d="m222.2-27.498c1.7676 1.525 3.8107 2.2355 6.1689-0.07809"/>
+    <path d="m220.8-32.095c0.42082-0.43428 1.28-0.89616 2.0667-0.93079"/>
+    <path d="m227.43-33.14c1.0091-0.05806 1.8244 0.63296 2.1069 1.1136"/>
+   </g>
+  </g>
+ </g>
+</svg>
